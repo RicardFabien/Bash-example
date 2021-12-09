@@ -1,8 +1,8 @@
-echo "\"$@\""
+comm="\"$@\""
 
 gitacp() {
 	git add .
-	git commit -m "\"$@\""
+	git commit -m "$comm"
 	git push origin main
 }
 
