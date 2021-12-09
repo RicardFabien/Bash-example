@@ -1,4 +1,4 @@
-comm="\"$@\""
+comm=$@
 
 gitacp() {
 	git add .
